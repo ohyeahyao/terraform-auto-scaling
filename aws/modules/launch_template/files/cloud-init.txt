@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /lifecycle-scripts
+ansible-playbook boot-init.yml --extra-vars hostname_prefix=__HOSTNAME_PREFIX__
